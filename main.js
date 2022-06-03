@@ -9,7 +9,7 @@
     });
   }
 
-  $('.btn-cat').on('click', (e) => {
+  $('.btn-cat').on('mousedown toutchstart', (e) => {
     const id = e.currentTarget.id;
     const result = id.match(/^btn-(.+)$/);
     const targetSection = result[1];
