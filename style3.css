@@ -1,0 +1,204 @@
+@charset "utf8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #ebe6b3;
+    /* width: 100vw; */
+    /* overflow: hidden; */
+}
+.header-image, 
+.footer-image
+{
+    width: 100%;
+    height: auto;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: rgb(47, 87, 136);
+}
+
+
+    
+h1{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+
+
+/*--------------------------波------------------------*/
+
+svg {
+
+  height: 20vh;
+	width: 100vw;
+	/* position: absolute; */
+	/* bottom: 0; */
+  margin-bottom: -1vh;
+}
+
+
+
+
+nav ul{
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+nav li{
+    list-style-type: none;
+    text-align: center;
+    width: calc(100% / 3);
+
+    }
+
+.btn,
+a.btn,
+button.btn {
+
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+  letter-spacing: 0.1em;/* 文字間隔 */
+}
+
+a.btn--blue {
+    color: #fff;
+    background-color: #1796c4;
+  }
+  
+  a.btn--blue:hover {
+    color: #fff;
+    background: #326999;
+  }
+  
+  a.btn--shadow {
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  a.btn--circle {
+    border-radius: 50%;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+  }
+
+  .work-category{
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+}
+
+
+
+#profile{
+  background: linear-gradient(180deg, #99DAD9, #568dc9);
+  margin: 0 auto;
+
+}
+
+h2{
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  padding: 3% 0 2% 0;
+}
+
+
+#profile-content{
+
+  display: flex;
+  flex-wrap:nowrap;
+  flex-direction: row;
+
+   
+}
+#profile-content img{
+  padding: 10% 10% 10% 40%;
+  
+  margin: 0 auto;
+  flex-basis: 50%;
+  width: 50vw;
+  height: auto;
+}
+.right{
+  margin: 0;
+  flex-basis: 50%;
+  padding-top: 5%;
+}
+
+.name{
+  font-size: 1.5rem;
+  padding: 5% 0;
+}
+
+.right-content{
+  font-size: 1.1rem;
+}
+
+.adress{
+  padding-top: 5%;
+  font-size: 1rem;
+}
+
+@media screen and (max-width:790px){
+
+  #profile-content{
+    display: block;
+  }
+  #profile-content img{
+    width: 80%;
+    margin-left: 9%;
+    padding: 5% 20%;
+  
+  }
+
+  .name{
+    font-size: 1.1rem;
+    padding: 0;
+    text-align: center;
+  }
+
+  .right{
+    padding-top: 0;
+  }
+
+  .adress{
+    padding: 5% 15%;
+    font-size: 0.3rem;
+  }
+
+  .right-content{
+    font-size: 0.8rem;
+    padding-top: 5%;
+    text-align: center;
+  }
+
+  
+
+
+  
+}
