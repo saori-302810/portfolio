@@ -52,7 +52,7 @@ nav li{
 svg {
 
     height: 20vh;
-      width: 100vw;
+      width: 100%;
       /* position: absolute; */
       /* bottom: 0; */
       margin-bottom: -1vh;
