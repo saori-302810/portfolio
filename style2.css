@@ -155,7 +155,7 @@ a.btn--blue {
     flex-basis: 50%;
 }
 
-.detail{
+.detail-graphic{
     padding-left: 10%;
     margin-top: 5%;
     font-size: 1.2rem;
@@ -178,7 +178,7 @@ a.btn--blue {
       width: 100%;
   }
   #web-content p{
-      width: 100%;
+      width: 90%;
       /* text-align: center; */
       
   }
@@ -199,9 +199,9 @@ a.btn--blue {
     flex-basis: 50%;
 }
 
-.detail{
+.detail-web{
     padding-left: 10%;
-    margin-top: 5%;
+    margin-top: 1%;
     font-size: 1.2rem;
 }
 
@@ -210,6 +210,15 @@ a.btn--blue {
 }
 
 /*--------------------動画-----------------------*/
+
+.detail-other{
+    padding-left: 10%;
+    margin-top: 1%;
+    font-size: 1.2rem;
+    width: 90%;
+
+}
+
 
 
 .other-1{
@@ -269,6 +278,7 @@ a.btn--blue {
 
 
 @media screen and (max-width:790px){
+
 
 
 
@@ -343,9 +353,8 @@ p{
 #title{
     font-size: 1.2rem;
 }
- }
 
-	
-	
-	
-	
+svg{
+    width: 100%;
+}
+ }
