@@ -159,7 +159,7 @@ h2{
 .profile-contents{
   width: 80%;
   font-size: 1.2rem;
-  margin: 0 auto;
+  
 }
 
 .right-content{
@@ -173,7 +173,9 @@ h2{
 }
 
 @media screen and (max-width:790px){
-
+  .profile-contents{	
+	margin: 0 auto;
+}
   #profile-content{
     display: block;
   }
