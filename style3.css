@@ -43,7 +43,7 @@ h1{
 svg {
 
   height: 20vh;
-	width: 100vw;
+	width: 100%;
 	/* position: absolute; */
 	/* bottom: 0; */
   margin-bottom: -1vh;
@@ -151,16 +151,24 @@ h2{
 }
 
 .name{
-  font-size: 1.5rem;
-  padding: 5% 0;
+  font-size: 1.8rem;
+  padding: 3% 0;
+  color: #fff;
+}
+
+.profile-contents{
+  width: 80%;
+  font-size: 1.2rem;
+  margin: 0 auto;
 }
 
 .right-content{
   font-size: 1.1rem;
+  padding-top: 3%;
 }
 
 .adress{
-  padding-top: 5%;
+  padding-top: 2%;
   font-size: 1rem;
 }
 
@@ -175,10 +183,14 @@ h2{
     padding: 5% 20%;
   
   }
+  #profile-contents p{
+  
+    font-size: 0.5rem;
+  }
 
   .name{
-    font-size: 1.1rem;
-    padding: 0;
+    font-size: 1.3rem;
+    padding: 0 0 2% 0;
     text-align: center;
   }
 
@@ -187,8 +199,9 @@ h2{
   }
 
   .adress{
-    padding: 5% 15%;
+    padding: 2% 15%;
     font-size: 0.3rem;
+    text-align: center;
   }
 
   .right-content{
